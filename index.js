@@ -2,13 +2,13 @@ import path from 'path'
 
 export async function truncateAll() {
 	const { PrismaClient, Prisma } = await dynamicallyLoadPrisma()
+
 	const client = new PrismaClient()
 	const tables = getTables(Prisma)
 	const commands = tables.map((table) => truncateTable(client, table))
-	const result = await Promise.all(commands)
 
+	await Promise.all(commands)
 	await client.$disconnect()
-	return result
 }
 
 export function truncateTable(client, table) {

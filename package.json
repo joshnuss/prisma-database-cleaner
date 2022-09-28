@@ -1,0 +1,22 @@
+{
+  "name": "prisma-database-cleaner",
+  "version": "0.0.1",
+  "description": "Clean database between test runs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prisma",
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "4.x"
+  },
+  "peerDependencies": {
+    "@prisma/client": "4.x"
+  }
+}

@@ -11,7 +11,10 @@
     "prisma",
     "testing"
   ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshnuss/prisma-database-cleaner"
+  },
   "license": "MIT",
   "dependencies": {
     "@prisma/client": "4.x"

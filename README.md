@@ -3,6 +3,8 @@ prisma-database-cleaner
 
 Utility for cleaning your Prisma database between test runs.
 
+Extracted from [Sky Cart](https://github.com/joshnuss/sky-cart)
+
 ## Setup
 
 ```sh

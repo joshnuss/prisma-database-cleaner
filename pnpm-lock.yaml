@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@prisma/client': ^4.4.0
+  '@prisma/client': 4.x
 
 dependencies:
   '@prisma/client': 4.4.0
